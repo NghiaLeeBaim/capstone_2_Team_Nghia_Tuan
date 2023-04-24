@@ -307,67 +307,67 @@
 }
 @keyframes anim-text-flow-keys {
   0% {
-    color: hsl(295, 60%, 60%);
+    color: hsl(119, 60%, 60%);
   }
   5% {
-    color: hsl(279, 60%, 60%);
+    color: hsl(276, 60%, 60%);
   }
   10% {
-    color: hsl(29, 60%, 60%);
+    color: hsl(290, 60%, 60%);
   }
   15% {
-    color: hsl(357, 60%, 60%);
+    color: hsl(287, 60%, 60%);
   }
   20% {
-    color: hsl(243, 60%, 60%);
+    color: hsl(315, 60%, 60%);
   }
   25% {
-    color: hsl(25, 60%, 60%);
+    color: hsl(137, 60%, 60%);
   }
   30% {
-    color: hsl(29, 60%, 60%);
+    color: hsl(209, 60%, 60%);
   }
   35% {
-    color: hsl(107, 60%, 60%);
+    color: hsl(321, 60%, 60%);
   }
   40% {
-    color: hsl(146, 60%, 60%);
+    color: hsl(252, 60%, 60%);
   }
   45% {
-    color: hsl(172, 60%, 60%);
+    color: hsl(133, 60%, 60%);
   }
   50% {
-    color: hsl(192, 60%, 60%);
+    color: hsl(203, 60%, 60%);
   }
   55% {
-    color: hsl(328, 60%, 60%);
+    color: hsl(227, 60%, 60%);
   }
   60% {
-    color: hsl(130, 60%, 60%);
+    color: hsl(40, 60%, 60%);
   }
   65% {
-    color: hsl(337, 60%, 60%);
+    color: hsl(190, 60%, 60%);
   }
   70% {
-    color: hsl(111, 60%, 60%);
+    color: hsl(277, 60%, 60%);
   }
   75% {
-    color: hsl(194, 60%, 60%);
+    color: hsl(199, 60%, 60%);
   }
   80% {
-    color: hsl(71, 60%, 60%);
+    color: hsl(358, 60%, 60%);
   }
   85% {
-    color: hsl(37, 60%, 60%);
+    color: hsl(358, 60%, 60%);
   }
   90% {
-    color: hsl(337, 60%, 60%);
+    color: hsl(46, 60%, 60%);
   }
   95% {
-    color: hsl(326, 60%, 60%);
+    color: hsl(198, 60%, 60%);
   }
   100% {
-    color: hsl(25, 60%, 60%);
+    color: hsl(54, 60%, 60%);
   }
 }
 .anim-text-flow span:nth-of-type(1),

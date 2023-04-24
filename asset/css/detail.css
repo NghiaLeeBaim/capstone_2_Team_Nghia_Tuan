@@ -217,12 +217,6 @@
   opacity: 0.6;
 }
 
-body {
-  margin: 0;
-  overflow-x: hidden;
-  font-family: "Archivo Narrow", sans-serif;
-}
-
 /*DEFAULT*/
 a {
   text-decoration: none;
@@ -241,7 +235,8 @@ li {
   list-style: none;
 }
 
-input, button {
+input,
+button {
   outline: none;
 }
 
@@ -344,8 +339,8 @@ label {
   width: 90%;
   margin: auto;
   position: relative;
-  padding: 5vh 0;
-  margin: 5vh auto;
+  padding: 0vh 0;
+  margin: 0vh auto;
 }
 
 .slide_image_color {
@@ -548,7 +543,8 @@ em {
   width: 50%;
 }
 
-.overall_rating, .rating_blocks {
+.overall_rating,
+.rating_blocks {
   width: 40%;
   display: inline-block;
   text-align: center;
@@ -615,7 +611,8 @@ em {
     font-size: 11px;
     display: inline-block;
   }
-  .overall_rating, .rating_blocks {
+  .overall_rating,
+  .rating_blocks {
     width: 95%;
     display: block;
   }
@@ -647,6 +644,12 @@ em {
   display: none;
 }
 
-.rating-box .rating-container label:hover, .rating-box .rating-container label:hover ~ label, .rating-box .rating-container input:checked ~ label {
+.rating-box .rating-container label:hover,
+.rating-box .rating-container label:hover ~ label,
+.rating-box .rating-container input:checked ~ label {
   color: gold;
+}
+
+.product-fearture {
+  margin-top: 50px;
 }
