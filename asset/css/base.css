@@ -2,7 +2,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Averta", Arial, Helvetica, sans-serif;
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
