@@ -1,21 +1,16 @@
-// ------------------ Call API Product --------------------
-
-// ------------------ Call API Detail --------------------
-
-window.onload = function(){
+window.onload = function () {
   const urlParams = new URLSearchParams(window.location.search);
-  const myParam = urlParams.get('productid');
-  console.log('params',myParam)
-}
+  const myParam = urlParams.get("productid");
+  console.log("params", myParam);
 
-function renderDetail(myParam) {
-  try {
-    var res = axios({
-      url: "https://shop.cyberlearn.vn/api/Product/getbyid?id=" + myParam,
-      method: "GET",
-      ResponseType: JSON,
-    });
 
+  var promise = axios({
+    url: "https://shop.cyberlearn.vn/api/Product/getbyid?id=" + myParam,
+    method: "GET",
+    ResponseType: JSON,
+  });
+
+  promise.then(function (res) {
     var mangGiay = res.data.content;
     var content = "";
 
@@ -193,7 +188,13 @@ function renderDetail(myParam) {
     document.querySelector("#product_Info").innerHTML = content;
 
     console.log("gọi thành công");
-  } catch (err) {
-    console.log(err);
-  }
-}
+  });
+
+  promise.catch(function (err) {
+      console.log(err);
+  });
+};
+
+
+
+
