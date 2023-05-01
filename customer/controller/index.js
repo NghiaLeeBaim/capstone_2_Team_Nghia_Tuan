@@ -5,10 +5,11 @@ $(".txt").html(function (i, html) {
   
     return "<span>" + chars.join("</span><span>") + "</span>";
   });
+
   
-  // ------------------ Call API --------------------
-  
-  (async function () {
+// ------------------ Call API Product --------------------
+
+(async function () {
     try {
       var res = await axios({
         url: "https://shop.cyberlearn.vn/api/Product",
@@ -39,7 +40,7 @@ $(".txt").html(function (i, html) {
                               <div class="product-short-description">
                               ${giay.description}
                               </div>
-                              <a href="#" class="product-atc">Add to Cart</a>
+                              <a href="/customer/view/detail.html?productid=${giay.id}" class="product-atc">Add to Cart</a>
                           </div>
                       </div>
                   </div>
@@ -53,6 +54,6 @@ $(".txt").html(function (i, html) {
     }
   })(); //IIFE function
   
+
   
-  
-  
+
