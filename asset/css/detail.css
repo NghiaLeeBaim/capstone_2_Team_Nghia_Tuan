@@ -101,9 +101,9 @@ a {
   justify-content: center;
 }
 .footer .container .map iframe {
-  margin: 25px 200px 0 -30px;
-  height: 70%;
-  width: 70%;
+  margin: 25px 25px;
+  height: 300px;
+  width: 500px;
 }
 .footer .container .adress {
   line-height: 2;
