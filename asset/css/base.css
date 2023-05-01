@@ -94,7 +94,6 @@ a {
   -moz-box-shadow: 0px 5px 64px -17px rgba(0, 0, 0, 0.33);
   box-shadow: 0px 5px 64px -17px rgba(0, 0, 0, 0.33);
   width: 100%;
-  height: 400px;
   margin-top: 50px;
 }
 .footer .container {
@@ -102,9 +101,9 @@ a {
   justify-content: center;
 }
 .footer .container .map iframe {
-  margin: 25px 200px 0 -30px;
-  height: 350px;
-  width: 350px;
+  margin: 25px 25px;
+  height: 400px;
+  width: 500px;
 }
 .footer .container .adress {
   line-height: 2;
