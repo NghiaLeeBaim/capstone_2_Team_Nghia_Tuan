@@ -17,57 +17,70 @@
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 
     <!-- css custom -->
-    <link rel="stylesheet" href="/capstone_2_Team_Nghia_Tuan/styles/login.css">
+    <link rel="stylesheet" href="/styles/register.css">
 </head>
 
 <body>
     <div id="wrapper">
-        <form action="" id="form-login">
-            <h1 class="form-heading">Form Register</h1>
+        <form action="" id="form-register" class="form-register" onsubmit="Validation(this); return false;">
+            <a href="/customer/view/index.html" style="text-decoration: none;"><img style="width: 150px;"
+                    src="/asset/img/Logo-image.png" alt=""></a>
             <div class="form col-12">
                 <div class="form-group">
-                    <input type="text" id="firstName" class="form-input" placeholder="First name">
-                    <!-- <input type="text" class="form-input" placeholder="Last name"> -->
+                    <input type="text" id="firstName" class="form-input" placeholder="First name" name="firstName">
+                    <p id="errorFirstname"></p>
                 </div>
+
                 <div class="form-group">
-                    <input type="text" id="lastName" class="form-input" placeholder="Last name">
+                    <input type="text" id="lastName" class="form-input" placeholder="Last name" name="lastName">
                 </div>
-                <p id="error-required" class="text text-danger"></p>
+
+                <p id="errorLastname"></p>
             </div>
 
             <div class="form-group">
-                <input type="password" id="email" class="form-input" placeholder="Email">
-                <p id="error-required-email" class="text text-danger"></p>
+                <input type="email" id="email" class="form-input" placeholder="Email" name="email">
+                <p id="errorEmail"></p>
             </div>
 
             <div class="form-group">
-                <input type="text" id="userName" class="form-input" placeholder="Username">
-                <p id="error-required-userName" class="text text-danger"></p>
+                <input type="text" id="userName" class="form-input" placeholder="Username" name="username">
+
+                <p id="errorUsername"></p>
             </div>
 
             <div class="form-group">
-                <input type="password" id="password" class="form-input" placeholder="Password">
+                <input type="password" id="password" class="form-input" placeholder="Password" name="password">
                 <div id="eye">
                     <i class="fa fa-eye"></i>
                 </div>
-                <p id="error-required-password" class="text text-danger"></p>
+
+                <p id="errorPassword"></p>
             </div>
 
             <div class="form-group">
-                <input type="password" id="confirmPassword" class="form-input" placeholder="Confirm password">
-                <p id="error-required-confirmPassword" class="text text-danger"></p>
+                <input type="password" id="confirmPassword" class="form-input" placeholder="Confirm password"
+                    name="confirmPassword">
+
+                <p id="errorConfirmPassword"></p>
             </div>
 
             <input type="submit" value="register" class="form-submit">
+
+            <div class="register">
+                <p style="text-align: center;"><a href="/customer/view/login.html">Login</a></p>
+            </div>
 
         </form>
     </div>
 
 
     <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
-    <script src="/capstone_2_Team_Nghia_Tuan/js/register.js"></script>
-    <script src="/capstone_2_Team_Nghia_Tuan/models/inforegister.js"></script>
-    <script src="/capstone_2_Team_Nghia_Tuan/util/method.js"></script>
+
+    <script src="/js/register.js"></script>
+    <script src="/models/inforegister.js"></script>
+    <script src="/util/method.js"></script>
+    <script src="/js/register.js"></script>
 </body>
 
 </html>

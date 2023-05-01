@@ -30,7 +30,7 @@ function stringToSlug(title) {
 
 function kiemTraRong(value, name) {
     if (value.trim() === '') {
-        document.querySelector(`#error-required-${name}`).innerHTML = `không được bỏ trống !`
+        document.querySelector(`#error-required-${name}`).innerHTML = `không bỏ trống !`
         return false;
     }
 
