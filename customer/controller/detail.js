@@ -197,4 +197,14 @@ window.onload = function () {
 
 
 
+$(document).ready(function(){
+    $('#toggle').click(function(){
+      // alert('ok');
+      $('nav').slideToggle();
+    });
+  });
+  
+
+
+
 

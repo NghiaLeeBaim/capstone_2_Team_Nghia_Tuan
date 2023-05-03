@@ -53,6 +53,13 @@ $(".txt").html(function (i, html) {
       console.log(err);
     }
   })(); //IIFE function
-  
+
+
+$(document).ready(function(){
+  $('#toggle').click(function(){
+    // alert('ok');
+    $('nav').slideToggle();
+  });
+});
 
   
