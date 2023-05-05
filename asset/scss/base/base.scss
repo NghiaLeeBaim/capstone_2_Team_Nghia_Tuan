@@ -130,27 +130,27 @@ a {
         height: 80px;
       }
     }
-    .email-client{
+    .email-client {
       background: #76bb00;
       width: 400px;
       margin-left: 50px;
       text-align: center;
-      h3{
+      h3 {
         text-align: center;
         font-size: 25;
         color: white;
       }
-      input{
+      input {
         text-align: center;
         width: 310px;
         margin: 4px 20px;
         border-radius: 12px;
         height: 40px;
       }
-      .icon-social{
-        a{
+      .icon-social {
+        a {
           text-decoration: none;
-          i{
+          i {
             font-size: 20px;
             color: white;
             margin: 10px 16px;
@@ -271,5 +271,69 @@ a {
         }
       }
     }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .menu {
+    .container {
+      margin: 0 auto;
+      nav {
+        flex-direction: column;
+        align-items: end;
+      }
+    }
+  }
+
+  .poster-carousel {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      height: 600px;
+      img{
+        display: none;
+      }
+    }
+  }
+
+  .footer {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+    }
+  }
+}
+@media (max-width: 991px) {
+  .product-fearture {
+    .container {
+      margin: 0 auto;
+      #danh-sach-giay {
+        .col-4 {
+          width: 32.5%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .product-fearture {
+    .container {
+      margin: 0 auto;
+      #danh-sach-giay {
+        .col-4 {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
   }
 }

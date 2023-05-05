@@ -6,7 +6,8 @@ $(".txt").html(function (i, html) {
     return "<span>" + chars.join("</span><span>") + "</span>";
   });
 
-  
+
+
 // ------------------ Call API Product --------------------
 
 (async function () {

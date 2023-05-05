@@ -252,3 +252,49 @@ a {
   text-decoration: none;
   opacity: 0.6;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .menu .container {
+    margin: 0 auto;
+  }
+  .menu .container nav {
+    flex-direction: column;
+    align-items: end;
+  }
+  .poster-carousel .container {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    height: 600px;
+  }
+  .poster-carousel .container img {
+    display: none;
+  }
+  .footer .container {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 991px) {
+  .product-fearture .container {
+    margin: 0 auto;
+  }
+  .product-fearture .container #danh-sach-giay .col-4 {
+    width: 32.5%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .product-fearture .container {
+    margin: 0 auto;
+  }
+  .product-fearture .container #danh-sach-giay .col-4 {
+    width: 50%;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
