@@ -256,6 +256,9 @@ a {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
+  .menu .container {
+    margin: 0 auto;
+  }
   .menu .container nav {
     flex-direction: column;
     align-items: end;
@@ -263,6 +266,8 @@ a {
   .poster-carousel .container {
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
+    height: 600px;
   }
   .poster-carousel .container img {
     display: none;
@@ -270,14 +275,21 @@ a {
   .footer .container {
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
   }
 }
 @media (max-width: 991px) {
+  .product-fearture .container {
+    margin: 0 auto;
+  }
   .product-fearture .container #danh-sach-giay .col-4 {
     width: 32.5%;
   }
 }
 @media only screen and (max-width: 768px) {
+  .product-fearture .container {
+    margin: 0 auto;
+  }
   .product-fearture .container #danh-sach-giay .col-4 {
     width: 50%;
   }
@@ -376,67 +388,67 @@ a {
 }
 @keyframes anim-text-flow-keys {
   0% {
-    color: hsl(99, 60%, 60%);
+    color: hsl(178, 60%, 60%);
   }
   5% {
-    color: hsl(186, 60%, 60%);
+    color: hsl(27, 60%, 60%);
   }
   10% {
-    color: hsl(321, 60%, 60%);
+    color: hsl(275, 60%, 60%);
   }
   15% {
-    color: hsl(314, 60%, 60%);
+    color: hsl(81, 60%, 60%);
   }
   20% {
-    color: hsl(92, 60%, 60%);
+    color: hsl(42, 60%, 60%);
   }
   25% {
-    color: hsl(41, 60%, 60%);
-  }
-  30% {
-    color: hsl(220, 60%, 60%);
-  }
-  35% {
     color: hsl(38, 60%, 60%);
   }
+  30% {
+    color: hsl(85, 60%, 60%);
+  }
+  35% {
+    color: hsl(221, 60%, 60%);
+  }
   40% {
-    color: hsl(10, 60%, 60%);
+    color: hsl(89, 60%, 60%);
   }
   45% {
-    color: hsl(296, 60%, 60%);
+    color: hsl(22, 60%, 60%);
   }
   50% {
-    color: hsl(337, 60%, 60%);
+    color: hsl(29, 60%, 60%);
   }
   55% {
-    color: hsl(8, 60%, 60%);
+    color: hsl(23, 60%, 60%);
   }
   60% {
-    color: hsl(278, 60%, 60%);
+    color: hsl(57, 60%, 60%);
   }
   65% {
-    color: hsl(79, 60%, 60%);
+    color: hsl(216, 60%, 60%);
   }
   70% {
-    color: hsl(160, 60%, 60%);
+    color: hsl(13, 60%, 60%);
   }
   75% {
-    color: hsl(353, 60%, 60%);
+    color: hsl(28, 60%, 60%);
   }
   80% {
-    color: hsl(355, 60%, 60%);
+    color: hsl(357, 60%, 60%);
   }
   85% {
-    color: hsl(134, 60%, 60%);
+    color: hsl(136, 60%, 60%);
   }
   90% {
-    color: hsl(67, 60%, 60%);
+    color: hsl(218, 60%, 60%);
   }
   95% {
-    color: hsl(204, 60%, 60%);
+    color: hsl(44, 60%, 60%);
   }
   100% {
-    color: hsl(298, 60%, 60%);
+    color: hsl(128, 60%, 60%);
   }
 }
 .anim-text-flow span:nth-of-type(1),

@@ -223,8 +223,6 @@ rating {
   color: gold;
 }
 
-
-
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .menu .container nav{
@@ -248,3 +246,71 @@ rating {
   }
 
 }
+
+
+
+@media (max-width:1180px){
+  .product_container{
+  min-width:95%;
+    width:100%;
+  }
+  .sidebar{
+  position:static;
+  width:100%;
+  margin:auto;
+  display:block;
+  padding:10px;
+  }
+  .sidebar img{
+  display:inline-block;
+  margin:0px 2px;
+  max-width:33%;
+  max-height:100px;
+  }
+  .Product_tumbnail{
+  width:100%;
+  margin:auto;
+  }
+  
+  .Product_tumbnail img{
+  max-width:100%;
+  margin:auto;
+  }
+  
+  .details{
+  width:100%;
+  position:static;
+  float:none;
+  padding:5vh 0;
+  }
+  }
+
+  @media (max-width:1000px){
+    .specification_table td{
+    width:95%;
+    padding:10px 25px;
+    color:gray;
+    border-bottom:1px solid rgba(1,1,1,0.1);
+    }
+    
+    .user_star_ratings{
+    width:95%;
+    margin:15vh 0;
+    }
+    .review_sidebar button{
+    margin:0 5px;
+    width:100px;
+    font-size:11px;
+    display:inline-block;
+    }
+    .overall_rating,.rating_blocks{
+    width:95%;
+    display:block;
+    }
+    .enter_user_star_ratings{
+    width:90%;
+    position:static;
+    background:#fff;
+    padding:20px;
+    }
+    }
